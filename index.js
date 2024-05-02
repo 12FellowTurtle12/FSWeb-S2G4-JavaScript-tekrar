@@ -89,20 +89,20 @@ function CemberinAlani(yaricap) {
 
 /*  (oto test yok) sayilar dizisi içinde kaç adet sayı olduğunu konsola yazdırın */
 
-let, ucetambolunenler,
-enkucuk,
-enbuyuk,
-ucebolunenlerintoplami,
-besyuzdenkucuksayilar,
-siralisayilar,
-tekraredensayilar;
+let ucetambolunenler,
+  enkucuk,
+  enbuyuk,
+  ucebolunenlerintoplami,
+  besyuzdenkucuksayilar,
+  siralisayilar,
+  tekraredensayilar;
 
 // 3a çözümü
 
 /* kodlar buraya */
 
-let enkucuk = sayilar[0];
-let enbuyuk = sayilar[0];
+enkucuk = sayilar[0];
+enbuyuk = sayilar[0];
 for (let i = 1; i < sayilar.length; i++) {
   if (sayilar[i] < enkucuk) {
     enkucuk = sayilar[i];
@@ -116,7 +116,7 @@ for (let i = 1; i < sayilar.length; i++) {
 
 /* kodlar buraya */
 
-let ucetambolunenler = [];
+ucetambolunenler = [];
 sayilar.forEach((sayi) => {
   if (sayi % 3 === 0) {
     ucetambolunenler.push(sayi);
@@ -127,25 +127,25 @@ sayilar.forEach((sayi) => {
 
 /* kodlar buraya */
 
-let ucebolunenlerintoplami = ucetambolunenler.reduce((acc, curr) => acc + curr, 0);
+ucebolunenlerintoplami = ucetambolunenler.reduce((acc, curr) => acc + curr, 0);
 
 // 3d çözümü
 
 /* kodlar buraya */
 
-let besyuzdenkucuksayilar = sayilar.filter((sayi) => sayi < 500);
+besyuzdenkucuksayilar = sayilar.filter((sayi) => sayi < 500);
 
 // 3e çözümü
 
 /* kodlar buraya */
 
-let siralisayilar = besyuzdenkucuksayilar.sort((a, b) => a - b);
+siralisayilar = besyuzdenkucuksayilar.sort((a, b) => a - b);
 
 // 3f çözümü
 
 /* kodlar buraya */
 
-let tekraredensayilar = [];
+tekraredensayilar = [];
 let sayiAdedi = {};
 sayilar.forEach((sayi) => {
   if (!sayiAdedi[sayi]) {
