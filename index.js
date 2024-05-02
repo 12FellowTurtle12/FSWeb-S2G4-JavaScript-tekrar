@@ -51,7 +51,7 @@ function KareninAlani(kenaruzunlugu) {
 */
 
 function CemberinCevresi(yaricap) {
-  return 2 * Math.PI * yaricap;
+  return 2 * pi * yaricap;
 }
 
 /* (Oto test yok) Yukarıdaki CemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
@@ -65,7 +65,7 @@ function CemberinCevresi(yaricap) {
 */
 
 function CemberinAlani(yaricap) {
-  return Math.PI * yaricap * yaricap;
+  return pi * yaricap * yaricap;
 }
 
 /* (Oto test yok) Yukarıdaki CemberinAlani fonksiyonunu yarıçap = 15 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
